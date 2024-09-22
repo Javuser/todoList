@@ -15,6 +15,7 @@ import java.util.Objects;
 @Getter
 @Setter
 @ToString
+
 public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
